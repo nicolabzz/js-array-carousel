@@ -11,18 +11,18 @@ body {
 }
 
 .container {
+	border: 2px solid khaki;
     position: relative;
 	margin: auto;
 	height: 80%;
 	width: 60%;
 	max-width: 600px;
 	max-height: 400px;
-	background-color: salmon;
+	box-shadow: 1rem 1rem ;
 }
 
 .btn-section {
 	display: flex;
-    align-items: center;
     flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
@@ -44,7 +44,7 @@ body {
 }
 
 .btn-top:hover, .btn-bottom:hover {
-	background-color: goldenrod;
+	background-color:turquoise;
 	cursor: pointer;
 }
 
@@ -55,6 +55,7 @@ body {
 	height: 100%;
 	object-fit: cover;
 	object-position: center;
+    inset: 0;
 }
 
 .show {
